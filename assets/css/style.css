@@ -62,8 +62,50 @@ h1 {
 
 #menu a:hover {
     color: var(--highlight-color);
+    font-size: 120%;
 }
 
 #menu .active {
     color: var(--highlight-color);
+    font-size: 120%;
+}
+
+li:has(> a.active) {
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Hero image section */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+ #home-cover-text h2 {
+    color: var(--light-color);
+    padding: 30px;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/cat-on-counter.png) no-repeat center center;
+    background-size: cover;
+    background-color: darkgray;
+    margin-bottom: 30px;
+}
+
+#home-cover-text {
+    position: absolute;
+    bottom: 50%;
+    right: 15%;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    background-color: rgba(131, 59, 11,0.7);
+    border-radius: 10px;
 }
