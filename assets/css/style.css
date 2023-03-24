@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --primary-color: #402E32;
+    --secondary-color: #833B0B;
+    --tertiary-color: #D28E3D;
+    --light-color: #FDFBD5;
+    --highlight-color: #E8ADA5;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@font-face {
+    font-family: meows;
+    src: url(../fonts/Meows-VGWjy.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: var(--light-color);
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--primary-color);
+}
+
+/* Logo */
+
+h1 {
+    font-family: meows, sans-serif;
+    color: var(--primary-color);
+    font-weight: 100;
+}
+
+#logo {
+    font-size: 500%;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+}
+
+/* Navigation menu */
+
+#menu {
+    font-size: 100%;
+    list-style: none;
+    float: right;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: var(--highlight-color);
+}
+
+#menu .active {
+    color: var(--highlight-color);
+}
