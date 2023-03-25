@@ -128,7 +128,7 @@ li:has(> a.active) {
 
 .about-group {
     width: 50%;
-    margin: auto;
+    margin-bottom: 30px;
     position: relative;
     display: inline-block;
 }
@@ -138,10 +138,10 @@ li:has(> a.active) {
     text-decoration: none;
 }
 
-.text-panel-right {
+#about-section .text-panel-right {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
-    width: 90%;
+    width: 80%;
     padding: 30px;
     margin: auto;
     line-height: 50%;
@@ -152,10 +152,10 @@ li:has(> a.active) {
     z-index: -1;
 }
 
-.text-panel-left {
+#about-section .text-panel-left {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
-    width: 90%;
+    width: 80%;
     padding: 30px;
     margin: auto;
     line-height: 50%;
@@ -283,11 +283,48 @@ footer {
     color: var(--light-color);
 }
 
-#cats-section .about-group:hover {
-    height: 120%;
-    width: 60%;
-    font-size: 120%;
+#cats-section .text-panel-right {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    line-height: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;  
+    transform: translate(0,-50%);
+    z-index: -1;
 }
+
+#cats-section .text-panel-left {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    line-height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;  
+    transform: translate(0,-50%);
+    z-index: -1;
+}
+
+#cats-section .text-panel-right h4, #cats-section .text-panel-right p {
+    padding-left: 100px;
+    padding-bottom: 15px;
+}
+
+#cats-section .text-panel-left h4, #cats-section .text-panel-left p {
+    padding-right: 100px;
+    padding-bottom: 15px;
+}
+
+/* #cats-section .about-group:hover {
+    height: 120%;
+    font-size: 120%;
+} */
 
 /* Gallery section */
 
@@ -298,4 +335,50 @@ footer {
     display: flex;
     align-content: center;
     justify-content: center;
+}
+
+/* Menu Page */
+
+/* Menu Hero Image Section */
+
+#hero-image-menu {
+    height: 600px;
+    background: url(../images/cat-on-counter.png) no-repeat center center;
+    background-size: cover;
+}
+
+/* Menu section */
+
+#menu-section {
+    margin-bottom: 30px;
+    clear: both;
+}
+
+#menu-section .about-group {
+    margin: 30px;
+}
+
+#menu-section .text-panel-right {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    width: 80%;
+    padding: 30px;
+    margin: 30px;
+    line-height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;  
+    transform: translate(0,0);
+    z-index: -1;
+}
+
+#drinks ul, #food ul {
+    list-style-type: none;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#drinks li, #food li {
+    margin: 15px;
 }
