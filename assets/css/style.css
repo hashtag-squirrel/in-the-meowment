@@ -265,8 +265,8 @@ footer {
     border: 2px solid var(--primary-color);
     border-radius: 50%;
     padding: 0;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     float: left;
     background: var(--secondary-color);
     color: var(--light-color);
@@ -276,8 +276,8 @@ footer {
     border: 2px solid var(--primary-color);
     border-radius: 50%;
     padding: 0;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     float: right;
     background: var(--tertiary-color);
     color: var(--light-color);
@@ -286,10 +286,16 @@ footer {
 #cats-section .about-group:hover {
     height: 120%;
     width: 60%;
+    font-size: 120%;
 }
 
 /* Gallery section */
 
 #gallery {
-    background-color: var(--primary-color);
+    margin-top: 30px;
+    background-color: var(--tertiary-color);
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
