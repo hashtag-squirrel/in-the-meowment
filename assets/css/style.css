@@ -351,7 +351,6 @@ footer {
 
 #menu-section {
     margin-bottom: 30px;
-    clear: both;
 }
 
 #menu-section .about-group {
@@ -364,12 +363,9 @@ footer {
     width: 80%;
     padding: 30px;
     margin: 30px;
-    line-height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;  
-    transform: translate(0,0);
+    line-height: 50%;
     z-index: -1;
+    overflow: hidden;
 }
 
 #drinks ul, #food ul {
