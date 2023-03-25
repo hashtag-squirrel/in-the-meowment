@@ -35,7 +35,7 @@ h1 {
     font-weight: 100;
 }
 
-h3 {
+h4 {
     margin-bottom: 15px;
     text-decoration: underline;
 }
@@ -117,12 +117,12 @@ li:has(> a.active) {
 
 /* About section */
 
-#about-section {
+.circle-section {
     width: 100%;
     text-align: center;
 }
 
-#about-section h2 {
+.circle-section h2 {
     margin-bottom: 30px;
 }
 
@@ -141,7 +141,7 @@ li:has(> a.active) {
 .text-panel-right {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
-    width: 85%;
+    width: 90%;
     padding: 30px;
     margin: auto;
     line-height: 50%;
@@ -155,7 +155,7 @@ li:has(> a.active) {
 .text-panel-left {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
-    width: 85%;
+    width: 90%;
     padding: 30px;
     margin: auto;
     line-height: 50%;
@@ -239,4 +239,57 @@ footer {
     margin: 30px;
     color: var(--primary-color);
     text-align: center;
+}
+
+/* Cats Page */
+
+/* Cats Hero Image Section */
+
+#hero-image-cats {
+    height: 600px;
+    background: url(../images/cat-on-counter.png) no-repeat center center;
+    background-size: cover;
+}
+
+/* Cat Introduction Section */
+
+#cats-section img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#cats-section .round-image-left {
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+    float: left;
+    background: var(--secondary-color);
+    color: var(--light-color);
+}
+
+#cats-section .round-image-right {
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    padding: 0;
+    height: 100px;
+    width: 100px;
+    float: right;
+    background: var(--tertiary-color);
+    color: var(--light-color);
+}
+
+#cats-section .about-group:hover {
+    height: 120%;
+    width: 60%;
+}
+
+/* Gallery section */
+
+#gallery {
+    background-color: var(--primary-color);
 }
