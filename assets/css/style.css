@@ -360,14 +360,15 @@ footer {
     column-count: 1;
 }
 
-#menu-section .text-panel-right {
-    border: 2px solid var(--primary-color);
+#menu-section .text-panel {
     border-radius: 10px;
     width: 100%;
     padding: 30px;
     margin: 30px;
     line-height: 100%;
     overflow: hidden;
+    background-color: var(--primary-color);
+    color: var(--light-color);
 }
 
 #drinks ul, #food ul {
