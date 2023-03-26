@@ -556,4 +556,17 @@ footer {
         margin-bottom: 30px;
         text-align: center;
     }
+
+    /* Restyle gallery to show only 3 columns */
+    #gallery div {
+        column-count: 3;
+    }
+}
+
+/* For small screen sizes 750px and down */
+
+@media screen and (max-width: 750px) {
+    #gallery div {
+        column-count: 2;
+    }
 }
