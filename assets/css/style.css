@@ -8,8 +8,6 @@
     --highlight-color: #E8ADA5;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
 @font-face {
     font-family: meows;
     src: url(../fonts/Meows-VGWjy.ttf);
