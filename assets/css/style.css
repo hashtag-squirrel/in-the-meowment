@@ -448,3 +448,35 @@ footer {
     color: var(--primary-color);
 }
 
+/* Error page */
+
+#error-section {
+    width: 70%;
+    margin: 0 auto;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#error-section div {
+    flex: 1;
+    /* width: 50%;
+    margin: 0 auto; */
+}
+
+/* #error-cat {
+    float: right;
+}
+
+#error-text {
+    float: left;
+} */
+
+#error-section img {
+    height: 600px;
+}
+
+#error-section h2 {
+    text-align: center;
+}
