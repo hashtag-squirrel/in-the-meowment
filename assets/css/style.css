@@ -141,13 +141,13 @@ li:has(> a.active) {
 #about-section .text-panel-right {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
-    width: 80%;
+    width: 85%;
     padding: 30px;
     margin: auto;
-    line-height: 50%;
+    line-height: 100%;
     position: absolute;
     top: 50%;
-    right: 0;  
+    left: 50px;  
     transform: translate(0,-50%);
     z-index: -1;
 }
@@ -155,13 +155,13 @@ li:has(> a.active) {
 #about-section .text-panel-left {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
-    width: 80%;
+    width: 85%;
     padding: 30px;
     margin: auto;
-    line-height: 50%;
+    line-height: 100%;
     position: absolute;
     top: 50%;
-    left: 0;  
+    right: 50px;  
     transform: translate(0, -50%);
     z-index: -1;
 }
@@ -287,12 +287,12 @@ footer {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     width: 80%;
-    padding: 30px;
+    padding: 15px;
     margin: auto;
-    line-height: 50%;
+    line-height: 100%;
     position: absolute;
     top: 50%;
-    right: 0;  
+    left: 75px;  
     transform: translate(0,-50%);
     z-index: -1;
 }
@@ -301,12 +301,12 @@ footer {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     width: 80%;
-    padding: 30px;
+    padding: 15px;
     margin: auto;
-    line-height: 50%;
+    line-height: 100%;
     position: absolute;
     top: 50%;
-    left: 0;  
+    right: 75px;  
     transform: translate(0,-50%);
     z-index: -1;
 }
@@ -363,7 +363,7 @@ footer {
     width: 80%;
     padding: 30px;
     margin: 30px;
-    line-height: 50%;
+    line-height: 100%;
     z-index: -1;
     overflow: hidden;
 }
