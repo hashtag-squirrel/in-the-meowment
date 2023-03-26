@@ -508,52 +508,35 @@ footer {
         width: 80%;
         margin: 0 auto;
         margin-bottom: 30px;
-        /* position: relative; */
         position: unset;
         display: block;
     }
 
-    #about-section .text-panel-right, #about-section .text-panel-left {
-        border: 2px solid var(--primary-color);
-        border-radius: 10px;
-        width: 100%;
-        padding: 30px;
+    #about-section .text-panel-right, #about-section .text-panel-left, #cats-section .text-panel-left, #cats-section .text-panel-right {
         margin: 0 auto;
-        line-height: 100%;
         position: unset;
-        transform: translate(0);
-        /* position: relative;
-        left: 0;
-        z-index: -1; */
-        /* position: absolute;
-        top: 95%;
-        left: inherit;
-        transform: translate(0); */
+        transform: translate(0,0);
     }
 
-    .round-image-left, .round-image-right {
-        border: 2px solid var(--primary-color);
-        border-radius: 50%;
-        padding: 30px;
-        height: 50px;
-        width: 50px;
+    .round-image-left, .round-image-right, #cats-section .round-image-right, #cats-section .round-image-left {
         float: none;
         margin: 0 auto;
-
-        background: var(--secondary-color);
-        color: var(--light-color);
+        margin-bottom: 15px;
     }
 
     .round-image-right {
         background: var(--tertiary-color);
     }
 
+    #cats-section .text-panel-right h4, #cats-section .text-panel-right p, #cats-section .text-panel-left h4, #cats-section .text-panel-left p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     /* Restyle contact section to show address and map above each other */
     #contact div {
         width: 100%;
     }
-
-    /* Restyle circle section to show circle above text panel for Cats page */
 
     /* Restyle menu page to show only 1 column in menu section */
     #drinks ul, #food ul {
