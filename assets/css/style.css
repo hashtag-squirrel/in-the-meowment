@@ -13,6 +13,7 @@
 @font-face {
     font-family: meows;
     src: url(../fonts/Meows-VGWjy.ttf);
+    font-display: swap;
 }
 
 * {
@@ -461,17 +462,7 @@ footer {
 
 #error-section div {
     flex: 1;
-    /* width: 50%;
-    margin: 0 auto; */
 }
-
-/* #error-cat {
-    float: right;
-}
-
-#error-text {
-    float: left;
-} */
 
 #error-section img {
     height: 600px;
@@ -479,4 +470,33 @@ footer {
 
 #error-section h2 {
     text-align: center;
+}
+
+/* Media queries */
+
+/* For medium screen sizes from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    header {
+        text-align: center;
+    }
+
+    #logo, #menu {
+        float: none;
+    }
+}
+
+
+
+/* For medium screen sizes below 950px wide and down */
+
+@media screen and (max-width: 950px) {
+/* To do:
+Reposition cover-text
+Stack circle-section
+Stack contact section? -> test
+Stack menu in 1 column and make section wider
+stack cats section
+Look at radio buttons in form
+*/
 }
