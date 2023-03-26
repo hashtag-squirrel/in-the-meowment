@@ -100,7 +100,7 @@ li:has(> a.active) {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/cat-on-counter.png) no-repeat center center;
+    background: url(../images/hero-images/cat-on-counter.webp) no-repeat center center;
     background-size: cover;
 }
 
@@ -248,7 +248,7 @@ footer {
 
 #hero-image-cats {
     height: 600px;
-    background: url(../images/cat-on-counter.png) no-repeat center center;
+    background: url(../images/hero-images/cat-cafe-room.webp) no-repeat center center;
     background-size: cover;
 }
 
@@ -322,20 +322,30 @@ footer {
     padding-bottom: 15px;
 }
 
-/* #cats-section .about-group:hover {
-    height: 120%;
-    font-size: 120%;
-} */
-
 /* Gallery section */
 
 #gallery {
-    margin-top: 30px;
-    background-color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    clear: both;
     text-align: center;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+    padding: 30px;
+}
+
+#gallery div {
+    line-height: 0%;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#gallery h2 {
+    margin-bottom: 30px;
+    color: var(--light-color);
+}
+
+#gallery img {
+    width: 100%;
+    border: 2px solid var(--primary-color);
+    box-sizing: border-box;
 }
 
 /* Menu Page */
@@ -344,7 +354,7 @@ footer {
 
 #hero-image-menu {
     height: 600px;
-    background: url(../images/cat-on-counter.png) no-repeat center center;
+    background: url(../images/hero-images/menu-hero.webp) no-repeat center center;
     background-size: cover;
 }
 
@@ -389,7 +399,7 @@ footer {
 
 #hero-image-adopt {
     height: 600px;
-    background: url(../images/cat-on-counter.png) no-repeat center center;
+    background: url(../images/hero-images/calico-on-bench.webp) no-repeat center center;
     background-size: cover;
 }
 
