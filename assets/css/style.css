@@ -486,17 +486,81 @@ footer {
     }
 }
 
-
-
 /* For medium screen sizes below 950px wide and down */
 
 @media screen and (max-width: 950px) {
-/* To do:
-Reposition cover-text
-Stack circle-section
-Stack contact section? -> test
-Stack menu in 1 column and make section wider
-stack cats section
-Look at radio buttons in form
-*/
+
+    /* Reposition cover-text */
+    #cover-text {
+        position: absolute;
+        bottom: 65%;
+        right: 5%;
+        max-width: 300px;
+        width: auto;
+        height: auto;
+        text-align: center;
+        background-color: rgba(131, 59, 11, 0.7);
+        border-radius: 10px;
+    }
+
+    /* Restyle circle section to show circle above text panel */
+    .about-group {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        /* position: relative; */
+        position: unset;
+        display: block;
+    }
+
+    #about-section .text-panel-right, #about-section .text-panel-left {
+        border: 2px solid var(--primary-color);
+        border-radius: 10px;
+        width: 100%;
+        padding: 30px;
+        margin: 0 auto;
+        line-height: 100%;
+        position: unset;
+        transform: translate(0);
+        /* position: relative;
+        left: 0;
+        z-index: -1; */
+        /* position: absolute;
+        top: 95%;
+        left: inherit;
+        transform: translate(0); */
+    }
+
+    .round-image-left, .round-image-right {
+        border: 2px solid var(--primary-color);
+        border-radius: 50%;
+        padding: 30px;
+        height: 50px;
+        width: 50px;
+        float: none;
+        margin: 0 auto;
+
+        background: var(--secondary-color);
+        color: var(--light-color);
+    }
+
+    .round-image-right {
+        background: var(--tertiary-color);
+    }
+
+    /* Restyle contact section to show address and map above each other */
+    #contact div {
+        width: 100%;
+    }
+
+    /* Restyle circle section to show circle above text panel for Cats page */
+
+    /* Restyle menu page to show only 1 column in menu section */
+    #drinks ul, #food ul {
+        list-style-type: none;
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+        text-align: center;
+    }
 }
