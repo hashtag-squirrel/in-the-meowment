@@ -354,17 +354,19 @@ footer {
 }
 
 #menu-section .about-group {
-    margin: 30px;
+    margin: 0 auto;
+    position: unset;
+    display: flex;
+    column-count: 1;
 }
 
 #menu-section .text-panel-right {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     padding: 30px;
     margin: 30px;
     line-height: 100%;
-    z-index: -1;
     overflow: hidden;
 }
 
