@@ -460,8 +460,18 @@ footer {
     border-radius: 10px;
 }
 
-.text-input:hover {
+.textarea-input:hover {
     border-color: var(--highlight-color);
+}
+
+.textarea-input {
+    font-family: "Ubuntu", sans-serif;
+    background: transparent;
+    color: var(--light-color);
+    width: 100%;
+    margin: 15px 0 30px;
+    border: 2px solid var(--light-color);
+    border-radius: 10px;
 }
 
 .radio-input {
