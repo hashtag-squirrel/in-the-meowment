@@ -340,9 +340,9 @@ footer {
 }
 
 #gallery div {
-    line-height: 0%;
+    /* line-height: 0%;
     column-count: 4;
-    column-gap: 0px;
+    column-gap: 0px; */
 }
 
 #gallery h2 {
@@ -350,10 +350,37 @@ footer {
     color: var(--light-color);
 }
 
+#photos {
+    line-height: 0%;
+    column-count: 4;
+    column-gap: 0px;
+}
+
 #gallery img {
     width: 100%;
+}
+
+.img-wrapper {
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
     border: 2px solid var(--primary-color);
     box-sizing: border-box;
+}
+
+#gallery img:hover {
+    animation-name: gallery-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gallery-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
 
 /* Menu Page */
