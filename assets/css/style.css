@@ -147,6 +147,7 @@ li:has(> a.active) {
     border-radius: 10px;
     width: 85%;
     padding: 30px;
+    padding-left: 60px;
     margin: auto;
     line-height: 100%;
     position: absolute;
@@ -161,6 +162,7 @@ li:has(> a.active) {
     border-radius: 10px;
     width: 85%;
     padding: 30px;
+    padding-right: 60px;
     margin: auto;
     line-height: 100%;
     position: absolute;
