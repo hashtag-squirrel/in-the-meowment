@@ -429,7 +429,7 @@ footer {
 
 #hero-image-adopt {
     height: 600px;
-    background: url(../images/hero-images/calico-on-bench.webp) no-repeat center center;
+    background: url(../images/hero-images/calico-on-bench.webp) no-repeat left center;
     background-size: cover;
 }
 
@@ -645,5 +645,15 @@ footer {
 
     .radio-input {
         margin: 15px 0 15px;
+    }
+
+    #error-image {
+        scale: 60%;
+    }
+
+    #error-section {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-content: center;
     }
 }
