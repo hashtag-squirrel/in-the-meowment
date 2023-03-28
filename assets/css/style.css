@@ -72,7 +72,6 @@ header a {
 
 #menu a:hover {
     color: var(--highlight-color);
-    font-size: 120%;
 }
 
 #menu .active {
