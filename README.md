@@ -4,9 +4,46 @@ In The Meowment is a site that introduces a cat cafe and hopes to make the visit
 
 ![Responsice Mockup](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-mockup.png)
 
-## Design
+## UX
 
-### Colors
+### Goals
+
+The site has the following main business goals:
+
+1. Entice site visitors to visit the cafe in person and spend time and money there.
+2. Introduce the cats and convince people to adopt a cat.
+
+It fulfills these goals by doing the following things:
+
+- Showing the visitor a cozy, welcoming atmosphere
+- Showing off the cats in the cafe as a special incentive to come visit
+- Giving information about how to reach the cafe both on- and offline
+- Giving further information about amenities and the food and drinks on offer
+- Providing opportunity for the visitor to apply for adoption of a cat
+- Giving the visitor many impressions of the cafe, making it more likely that the visitor wants to visit 
+
+### User Stories
+
+As a first time site user I want to: 
+
+* find information about the cafe and how to find it
+* Find a list of offered drinks and food
+* Find information about the cats
+* Find out how to adopt a cat
+
+As a returning site user I want to:
+
+* Apply to adopt a cat I have met
+
+As a business I want:
+
+* My customers to find anything they need to know about the cafe
+* My customers to have a convenient way to apply for a adoption
+* My customers to feel invited to come visit
+
+### Design
+
+#### Colors
 
 The main goal of the color palette was to make a cozy, inviting impression on the visitor, without being too extreme. 
 
@@ -16,7 +53,7 @@ I felt that the black in the palette was too extreme and could be softened by a 
 
 ![Color Palette](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/color-palette.png)
 
-### Fonts
+#### Fonts
 
 In general, I wanted fonts that did not seem too strict or edgy, since the site is supposed to be welcoming and cozy and a bit casual. 
 
@@ -25,6 +62,26 @@ As with the colors, I wanted to have a cat-related font for the logo of the site
 I originally planned to use it for other headings as well, but decided against it after the first styling, since it was a little overwhelming. 
 
 For all other text, I chose the font Ubuntu from [Google Fonts](https://fonts.google.com/), since it fit well with Meows and fit my initial idea about the font. 
+
+#### Consistency
+
+In order to keep a consistent look throughout all pages of the site, there are recurring design elements on every page. 
+
+- All boxes that don't stretch over the whole width of the screen have rounded borders with 10px
+- Circles and rounded boxes show up in different parts of the page
+- All borders used throughout the page have a consistent thickness of 2px
+- Margins were mostly kept at two sizes of 15px and 30px
+
+#### Images
+
+The imagery used throughout the site was chosen to match the theme of the site and features cats, coffee or both in the same image. 
+
+The hero images were chosen to match the specific content of the page they are displayed on. The images in the gallery are supposed to give a good impression of what a stay at the cafe can be like, showing people cuddling cats and cats hanging out in cozy settings, as well as showing drinks and cafe scenery. 
+
+The images of people holding or cuddling cats were added specifically to make a visitor more likely to picture themselves coming to the cafe and holding or cuddling a cat and thus making it more likely for them to visit. 
+
+Most images were taken from free stock image pages and are credited in detail [here](#credits).
+The images of the Gigi and Klaire belong to myself and the images of Nika and Nova were kindly donated by our neighbours who would like to remain anonymous. 
 
 ## Features 
 
