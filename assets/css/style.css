@@ -216,6 +216,15 @@ li:has(> a.active) {
     width: 100%;
 }
 
+#address a {
+    text-decoration: none;
+    color: var(--light-color);
+}
+
+#address a:hover {
+    color: var(--highlight-color);
+}
+
 #map {
     height: 100%;
     width: 100%;
