@@ -65,7 +65,7 @@ h4 {
     margin: 30px;
 }
 
-#menu a {
+header a {
     text-decoration: none;
     color: inherit;
 }
@@ -110,7 +110,7 @@ li:has(> a.active) {
 
 #cover-text {
     position: absolute;
-    bottom: 50%;
+    bottom: 65%;
     right: 15%;
     max-width: 300px;
     width: auto;
@@ -537,15 +537,8 @@ footer {
 
     /* Reposition cover-text */
     #cover-text {
-        position: absolute;
-        bottom: 65%;
         right: 5%;
-        max-width: 300px;
-        width: auto;
-        height: auto;
         text-align: center;
-        background-color: rgba(131, 59, 11, 0.7);
-        border-radius: 10px;
     }
 
     /* Restyle circle section to show circle above text panel */
@@ -603,5 +596,59 @@ footer {
 @media screen and (max-width: 750px) {
     #gallery div {
         column-count: 2;
+    }
+
+    #logo {
+        font-size: 300%;
+    }
+
+    #menu li {
+        margin: 15px;
+    }
+
+    #hero-outer, #hero-image {
+        height: 400px;
+    }
+
+    #cover-text {
+        bottom: 10%;
+        right: 5px;
+    }
+
+    .about-group {
+        width: 90%;
+    }
+
+    #about-section .text-panel-left, #about-section .text-panel-right {
+        width: unset;
+    }
+
+    #contact {
+        height: 200px;
+    }
+
+    #menu-section .text-panel {
+        margin: 15px;
+    }
+
+    #form-section {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .signup-form {
+        width: unset;
+        margin: 0 auto;
+    }
+
+    .radio-group {
+        display: flex;
+        flex: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .radio-input {
+        margin: 15px 0 15px;
     }
 }

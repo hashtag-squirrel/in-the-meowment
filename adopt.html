@@ -55,14 +55,22 @@
             <label for="reason">Tell us a bit about yourself and why you want to adopt a cat</label>
             <input type="textarea" id="reason" name="reason" required class="text-input">
             <p>Which kitty are you interested in?</p>
-            <label for="gigi">Gigi</label>
+            <div class="radio-group">
+                <label for="gigi" class="radio-label">Gigi</label>
             <input type="radio" id="gigi" name="kitty" value="gigi" required class="radio-input">
-            <label for="klaire">Klaire</label>
-            <input type="radio" id="klaire" name="kitty" value="klaire" required class="radio-input">
-            <label for="nika">Nika</label>
-            <input type="radio" id="nika" name="kitty" value="nika" required class="radio-input">
-            <label for="nova">Nova</label>
-            <input type="radio" id="nova" name="kitty" value="nova" required class="radio-input">
+            </div>
+            <div class="radio-group">
+                <label for="klaire" class="radio-label">Klaire</label>
+                <input type="radio" id="klaire" name="kitty" value="klaire" required class="radio-input">
+            </div>
+            <div class="radio-group">
+                <label for="nika" class="radio-label">Nika</label>
+                <input type="radio" id="nika" name="kitty" value="nika" required class="radio-input">
+            </div>
+            <div class="radio-group">
+                <label for="nova" class="radio-label">Nova</label>
+                <input type="radio" id="nova" name="kitty" value="nova" required class="radio-input">
+            </div>
             <input type="submit" value="Apply Now!" class="apply-button">
         </form>
     </section>
