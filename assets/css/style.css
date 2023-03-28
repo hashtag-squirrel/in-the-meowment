@@ -645,7 +645,6 @@ footer {
 
     .radio-group {
         display: flex;
-        flex: row;
         align-items: center;
         gap: 15px;
     }
@@ -655,7 +654,7 @@ footer {
     }
 
     #error-image {
-        scale: 60%;
+        scale: 0.6;
     }
 
     #error-section {
