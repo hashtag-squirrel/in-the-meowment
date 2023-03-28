@@ -339,12 +339,6 @@ footer {
     padding: 30px;
 }
 
-#gallery div {
-    /* line-height: 0%;
-    column-count: 4;
-    column-gap: 0px; */
-}
-
 #gallery h2 {
     margin-bottom: 30px;
     color: var(--light-color);
@@ -586,7 +580,7 @@ footer {
     }
 
     /* Restyle gallery to show only 3 columns */
-    #gallery div {
+    #photos {
         column-count: 3;
     }
 }
@@ -594,7 +588,7 @@ footer {
 /* For small screen sizes 750px and down */
 
 @media screen and (max-width: 750px) {
-    #gallery div {
+    #photos {
         column-count: 2;
     }
 
