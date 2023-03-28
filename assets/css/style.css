@@ -26,7 +26,12 @@ body {
     color: var(--primary-color);
 }
 
-/* Logo */
+p {
+    font-size: 120%;
+    line-height: 120%;
+}
+
+/* Headings and Logo */
 
 h1 {
     font-family: meows, sans-serif;
@@ -35,6 +40,7 @@ h1 {
 }
 
 h4 {
+    font-size: 120%;
     margin-bottom: 15px;
     text-decoration: underline;
 }
