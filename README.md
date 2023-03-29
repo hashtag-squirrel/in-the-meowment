@@ -297,6 +297,7 @@ The live link can be found here - https://hashtag-squirrel.github.io/in-the-meow
   - https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto
   - https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_phoneto
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Used throughout the site
+- [W3Schools CSS Reference](https://www.w3schools.com/cssref/index.php) was used throughout the project to reference properties and their values
 
 #### Other
 
