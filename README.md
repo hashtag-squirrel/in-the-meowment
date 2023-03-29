@@ -71,6 +71,7 @@ In order to keep a consistent look throughout all pages of the site, there are r
 - Circles and rounded boxes show up in different parts of the page
 - All borders used throughout the page have a consistent thickness of 2px
 - Margins were mostly kept at two sizes of 15px and 30px
+- The header and footer sections appear on every page in the same styling
 
 #### Images
 
@@ -89,59 +90,119 @@ The images of the Gigi and Klaire belong to myself and the images of Nika and No
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The navigation bar and logo are featured on every page in a consistent style to allow for easy navigation across the site. 
+  - The logo is a clickable link to the home page.
+  - The navigation links are highlighted when the user hovers over them to give them a sense of feedback.
+  - The active page is highlighted with a dark background so the user always knows where on the page he is at the moment.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-nav-bar.png)
 
-- __The landing page image__
+- __The landing page hero image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - Like every page, the landing features a photograph that is supposed to elicit positive feelings in the user.
+  - There is a text box overlay as well, with a call to action to visit the cafe and giving extra incentive ("getting your MEOW on").
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-landing.png)
 
-- __Club Ethos Section__
+- __About section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The About section shows the user information about the different benefits of the cafe.
+  - Every line of text is written in an imperative tone in order to prompt the user to do the things themselves.
+  - It has a playful circle design with icons to give an impression of the possibilities at the cafe at first glance.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![About](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-about.png)
 
-- __Meetup Times section__
+- __Contact section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The Contact section offers the user information about how to find the cafe.
+  - It is offset from the About section using a dark background in the primary color, so it is clear that this is a new section.
+  - It is divided into two columns:
+    - In the first column, the user finds the address, phone number and email address.
+    - In the second column, there is an interactive map showing the location of the cafe at first glance, so the user doesn't have to enter the address in another map tool if they are not familiar with the address.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Contact](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-contact.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section features links to the different social media accounts of the cafe using simple icons for the different sites. 
+  - The links open to a new tab so the user is not directed away from the page, but can keep browsing. 
+  - The design was kept as minimalistic as possible to not distract from the rest of the content, but at the same time offer easy and intuitive access.
+  - The footer is valuable to the user as it encourages them to keep connected via social media, where they may find more current information or more impressions of the cafe. This applies especially for users who are looking to adopt a cat and want to stay informed about new cats arriving or the cats' progress.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-footer.png)
+
+- __The Menu page hero image__
+
+  - To keep a consistent look throughout the page as mentioned above, the Menu page also features a large photograph with an overlayed text box.
+  - The image chosen shows a person holding a cup of cappuccino, which is supposed to give another visual clue as to where on the site the user is and what the page is about.
+  - The text box gives a written headline for the page, trying to get a positive emotional response from the user by using a cat-themed pun to describe the items on offer ("Purrtastic").
+
+![Menu Hero](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-menu-hero.png)
+
+- __Menu section__
+
+  - The Menu section gives the user a list of drinks and food offered at the cafe.
+  - The value for the user is that they know exactly if the cafe offers something they would like to have and to make their selection at the cafe easier.
+  - Additionally, the page aims at enticing more users to visit the cafe because they spot something on offer they really like.
+  - The menu has a few items using cat-themed puns, again to get a positive emotional response from the user.
+  - The menu itself is contained in two rounded-corner boxes which are offset from the background by using the primary color.
+
+![Menu Section](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-menu.png)
+
+- __The Cats page hero image__
+
+  - The photograph features in the hero image on the Cats page shows a large open room with cat furniture and cats hidden in my parts of the photo. The room shown is open and flooded by light, creating an inviting atmosphere.
+  - This is supposed to give the user an impression of the cats, while also showing off the cafe itself.
+  - The text box again features a call to action to meet the cats, using the adjective "lovely" to make the user more inclined to meet them.
+
+![Cats Hero](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-cats-hero.png)
+
+- __Cats section__
+
+  - Similar in styling with the About section on the landing page, this section features the cats living at the cafe.
+  - The circles show a portrait of each kitty with an adjoining text box containing their name and a short description of them.
+  - The user can get familiar with the cats here before visiting or can remind themselves of the cats they met when they visited the cafe before.
+  - A user interested in adoption can use the page to revisit the cat they are interested in.
+
+![Cats Section](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-cats.png)
 
 - __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The Gallery section gives the user more impressions of the cafe.
+  - When hovering over an image, it zooms in a little, to give focus to the image hovered over.
+  - This section is valuable to the user as they will be able to envision their stay at the cafe.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-gallery.png)
 
-- __The Sign Up Page__
+- __The Adopt page hero image__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - The Adopt page hero image shows a goofy photograph of a cat on a stool, so the user can visualize what a cat in their home may look like.
+  - The text box does not have a call to action, but instead it has a question to the user, suggesting that adopting a cat will equal love in their home.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Adopt Hero](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-adopt-hero.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __The Adoption Form__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - This page will allow the user to apply to adopt one of the cats of the cafe.
+  - The user will be able to choose which cat they are interested in.
+  - The user will be asked to submit their full name, phone number and email address.
+  - Additionally, the user is asked to write a small paragraph about who they are and why they want to adopt.
 
-### Features Left to Implement
+![Adopt Section](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-adopt.png)
 
-- Another feature idea
+- __404 page__
+
+  - If the user should end up on a non-existing link, they are shown the 404 page
+  - The page gives a written explanation that the page doesn't exist
+  - The page also shows a sad cat to keep with the theme of the page
+  - The value of the page is that the user still has the navigation bars, so they can easily navigate back to existing content
+
+![404 Page](https://github.com/hashtag-squirrel/in-the-meowment/blob/main/assets/images/readme-media/in-the-meowment-404.png)
+
+### Feature Ideas
+
+- Clicking on the featured cats to open a modal with a longer description and details about the cat
+- A page showing new arrivals
 
 ## Testing 
 
