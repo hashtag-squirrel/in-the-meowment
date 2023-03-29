@@ -39,7 +39,7 @@ h1 {
     font-weight: 100;
 }
 
-h4 {
+h3 {
     font-size: 120%;
     margin-bottom: 15px;
     text-decoration: underline;
@@ -136,7 +136,7 @@ li:has(> a.active) {
     display: inline-block;
 }
 
-.about-group h3 {
+.about-group i {
     font-size: 250%;
     text-decoration: none;
 }
@@ -328,11 +328,11 @@ footer {
     z-index: -1;
 }
 
-#cats-section .text-panel-right h4, #cats-section .text-panel-right p {
+#cats-section .text-panel-right h3, #cats-section .text-panel-right p {
     padding: 0 0 15px 100px;
 }
 
-#cats-section .text-panel-left h4, #cats-section .text-panel-left p {
+#cats-section .text-panel-left h3, #cats-section .text-panel-left p {
     padding: 0 100px 15px 0;
 }
 
@@ -572,7 +572,7 @@ footer {
         background: var(--tertiary-color);
     }
 
-    #cats-section .text-panel-right h4, #cats-section .text-panel-right p, #cats-section .text-panel-left h4, #cats-section .text-panel-left p {
+    #cats-section .text-panel-right h3, #cats-section .text-panel-right p, #cats-section .text-panel-left h3, #cats-section .text-panel-left p {
         padding-left: 0;
         padding-right: 0;
     }
